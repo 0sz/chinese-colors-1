@@ -148,8 +148,7 @@ export default function InfoModal({ closeModal, bgColor }) {
           <span>
             Copyright © 2024 Building by: <a href="https://home.ad" target="_blank">
               Home.AD
-            </a>
-            & Design by <a href="//yangerxiao.com" target="_blank">
+            </a> & Design by <a href="//yangerxiao.com" target="_blank">
               Tristan
             </a>
           </span>
