@@ -9,8 +9,8 @@ const IconInfo = lazy(() => import('../components/IconInfo'));
 const IconImage = lazy(() => import('../components/IconImage'));
 const Header = lazy(() => import('../components/Header'));
 const IconScreenshot = lazy(() => import('../components/IconScreenshot'));
-
-
+const IconTwitter = lazy(() => import('../components/IconTwitter'));
+const IconUnsplash = lazy(() => import('../components/IconUnsplash'));
 const ColorSet = lazy(() => import('../components/ColorSet'));
 const ICP = lazy(() => import('../components/ICP'));
 const Preview = lazy(() => import('../components/Preview'));
