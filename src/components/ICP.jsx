@@ -23,14 +23,7 @@ const StyledWrapper = styled.aside`
 export default function ICP() {
   return (
     <StyledWrapper>
-      <a
-        className="link"
-        rel="noopener noreferrer"
-        target="_blank"
-        href="http://www.beian.miit.gov.cn/"
-      >
-        京ICP备16015459号-1
-      </a>
+
     </StyledWrapper>
   );
 }
