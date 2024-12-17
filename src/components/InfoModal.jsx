@@ -6,7 +6,6 @@ import Logo from '../assets/img/logo.png';
 import Bird from '../assets/img/bg.bird.png';
 import BgImage from '../assets/img/code.bg.png';
 import BgBtmImage from '../assets/img/info.bg.btm.png';
-import RewardImage from '../assets/img/reward.jpg';
 import BounceInDown from './animates/BounceInDown';
 
 const Wrapper = styled.section`
@@ -135,34 +134,6 @@ export default function InfoModal({ closeModal, bgColor }) {
         </h1>
         <h2>chinese colors</h2>
 
-        <img className="reward" src={RewardImage} alt="reward image" />
-
-        <a
-          className="producthunt"
-          href="https://www.producthunt.com/posts/chinese-color?utm_source=badge-featured&utm_medium=badge&utm_souce=badge-chinese-color"
-          target="_blank"
-        >
-          <img
-            src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=167119&theme=dark"
-            alt="Chinese Traditional Color - Chinese Color Cheatsheet Online! "
-          />
-        </a>
-        <p className="btns">
-          <GitHubButton
-            href="https://github.com/zerosoul/chinese-colors"
-            data-show-count="true"
-            aria-label="Star zerosoul/chinese-colors on GitHub"
-          >
-            Star
-          </GitHubButton>
-          <GitHubButton
-            href="https://github.com/zerosoul/chinese-colors/fork"
-            data-show-count="true"
-            aria-label="Fork zerosoul/chinese-colors on GitHub"
-          >
-            Fork
-          </GitHubButton>
-        </p>
 
         <p>
           <span>
@@ -175,32 +146,15 @@ export default function InfoModal({ closeModal, bgColor }) {
 
         <p>
           <span>
-            Copyright © 2023 by:
-            <a href="//yangerxiao.com" target="_blank">
+            Copyright © 2024 Building by: <a href="https://home.ad" target="_blank">
+              Home.AD
+            </a>
+            & Design by <a href="//yangerxiao.com" target="_blank">
               Tristan
             </a>
           </span>
         </p>
-        <p className="ad">
-          <span>
-            更多作品：
-            <a href="//sinqi.tools" target="_blank">
-              Sinqi Tools
-            </a>
-          </span>
-          <span>
-            经典扫雷小游戏：
-            <a href="//ohminesweeper.online" target="_blank">
-              Minesweeper Online
-            </a>
-          </span>
-          <span>
-            高清壁纸大图：
-            <a href="//sinqi.tools/zh/unsplash" target="_blank">
-              Unsplash Wanderer
-            </a>
-          </span>
-        </p>
+       
       </div>
     </Wrapper>
   );
