@@ -9,7 +9,7 @@ const StyledWrapper = styled.a`
 `;
 const IconTwitter = () => {
   return (
-    <StyledWrapper href="https://twitter.com/wsygc" target="_blank">
+    <StyledWrapper href="https://twitter.com" target="_blank">
       <FaXTwitter size="30" />
     </StyledWrapper>
   );
